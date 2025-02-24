@@ -14,6 +14,9 @@ Before running the scripts, ensure you have:
 - An active Azure OpenAI instance with `gpt-4o` or similar deployed
 - Installed dependencies from `requirements.txt`
 
+## Architecture Diagram
+![Arch](https://github.com/user-attachments/assets/54db35c8-b39b-453d-bd96-13e14e8b1e06)
+
 ## Installation
 
 1. Clone the repository:
@@ -24,5 +27,4 @@ Before running the scripts, ensure you have:
 
    pip install -r requirements.txt
 
-![Uploading image.png…]()
 
