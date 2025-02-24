@@ -3,9 +3,11 @@
 This repository contains scripts to automate test case generation from JIRA Epic requirements using Generative AI (Azure OpenAI). The test cases can be either:
 
 1. **Stored in a CSV file** – Extracts Epic requirements from JIRA, generates test cases, and saves them in a CSV file
-   python test_casesGenerator_to_CSV.py
-2. **Added as comments in JIRA** – Extracts Epic requirements from JIRA, generates test cases, and directly posts them as comments in the respective JIRA Epics.
-   python test_casesGenerate_to_jira_comments.py
+
+   **python test_casesGenerator_to_CSV.py**
+3. **Added as comments in JIRA** – Extracts Epic requirements from JIRA, generates test cases, and directly posts them as comments in the respective JIRA Epics.
+
+   **python test_casesGenerate_to_jira_comments.py**
 ## Prerequisites
 
 Before running the scripts, ensure you have:
