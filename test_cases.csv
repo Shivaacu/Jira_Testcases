@@ -1,0 +1,126 @@
+Requirement,Test Case
+"Summary: send me tsest case for anagram
+Description: No description provided.","Here are several test cases for the requirement to test an anagram functionality. An anagram is a word or phrase formed by rearranging the letters of another, typically using all the original letters exactly once.
+
+---
+
+### **Test Case 1: Positive Test Case - Valid Anagram**
+**Test Case ID:** TC_Anagram_01  
+**Description:** Verify that the function correctly identifies two words as anagrams.  
+**Input:**  
+- String 1: ""listen""  
+- String 2: ""silent""  
+**Expected Output:** True (They are anagrams)
+
+---
+
+### **Test Case 2: Negative Test Case - Not an Anagram**
+**Test Case ID:** TC_Anagram_02  
+**Description:** Verify that the function correctly identifies two words that are not anagrams.  
+**Input:**  
+- String 1: ""hello""  
+- String 2: ""world""  
+**Expected Output:** False (They are not anagrams)
+
+---
+
+### **Test Case 3: Case Sensitivity**
+**Test Case ID:** TC_Anagram_03  
+**Description:** Verify that the function is case-insensitive when checking for anagrams.  
+**Input:**  
+- String 1: ""Listen""  
+- String 2: ""Silent""  
+**Expected Output:** True (They are anagrams)
+
+---
+
+### **Test Case 4: Different Length Strings**
+**Test Case ID:** TC_Anagram_04  
+**Description:** Verify that the function returns false when the two strings have different lengths.  
+**Input:**  
+- String 1: ""cat""  
+- String 2: ""cats""  
+**Expected Output:** False (They are not anagrams)
+
+---
+
+### **Test Case 5: Special Characters**
+**Test Case ID:** TC_Anagram_05  
+**Description:** Verify that the function correctly handles strings with special characters.  
+**Input:**  
+- String 1: ""a!b@c""  
+- String 2: ""c@b!a""  
+**Expected Output:** True (They are anagrams)
+
+---
+
+### **Test Case 6: Numbers in Strings**
+**Test Case ID:** TC_Anagram_06  
+**Description:** Verify that the function correctly handles strings with numbers.  
+**Input:**  
+- String 1: ""12345""  
+- String 2: ""54321""  
+**Expected Output:** True (They are an"
+"Summary: Create the test case for the number is prime or not
+Description: Create the test case for the given number is prime or not","Here are test cases for verifying whether a given number is prime or not:
+
+---
+
+### **Test Case 1: Positive Prime Number**
+- **Test Case ID**: TC_001
+- **Description**: Verify that the function correctly identifies a small positive prime number.
+- **Input**: `7`
+- **Expected Output**: `True` (7 is a prime number)
+
+---
+
+### **Test Case 2: Positive Non-Prime Number**
+- **Test Case ID**: TC_002
+- **Description**: Verify that the function correctly identifies a small positive non-prime number.
+- **Input**: `8`
+- **Expected Output**: `False` (8 is not a prime number)
+
+---
+
+### **Test Case 3: Large Prime Number**
+- **Test Case ID**: TC_003
+- **Description**: Verify that the function correctly identifies a large prime number.
+- **Input**: `7919`
+- **Expected Output**: `True` (7919 is a prime number)
+
+---
+
+### **Test Case 4: Large Non-Prime Number**
+- **Test Case ID**: TC_004
+- **Description**: Verify that the function correctly identifies a large non-prime number.
+- **Input**: `8000`
+- **Expected Output**: `False` (8000 is not a prime number)
+
+---
+
+### **Test Case 5: Smallest Prime Number**
+- **Test Case ID**: TC_005
+- **Description**: Verify that the function correctly identifies the smallest prime number.
+- **Input**: `2`
+- **Expected Output**: `True` (2 is a prime number)
+
+---
+
+### **Test Case 6: Number 1 (Edge Case)**
+- **Test Case ID**: TC_006
+- **Description**: Verify that the function correctly identifies 1 as not a prime number.
+- **Input**: `1`
+- **Expected Output**: `False` (1 is not a prime number)
+
+---
+
+### **Test Case 7: Negative Number**
+- **Test Case ID**: TC_007
+- **Description**: Verify that the function correctly identifies a negative number as not a prime number.
+- **Input**: `-7`
+- **Expected Output**: `False` (Negative numbers are not prime)
+
+---
+
+### **Test Case 8: Zero**
+- **Test Case ID"
