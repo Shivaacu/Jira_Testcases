@@ -23,6 +23,6 @@ Before running the scripts, ensure you have:
    cd jira-test-case-generator
 
    pip install -r requirements.txt
-```
+
 ![Uploading image.png…]()
 
