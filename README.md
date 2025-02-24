@@ -24,3 +24,5 @@ Before running the scripts, ensure you have:
 
    pip install -r requirements.txt
 ```
+![Uploading image.png…]()
+
